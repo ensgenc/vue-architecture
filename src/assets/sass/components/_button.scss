@@ -1,0 +1,21 @@
+.btn {
+  height: 40px;
+  margin: 0;
+  display: inline-flex;
+  cursor: pointer;
+  user-select: none;
+  align-items: center;
+  vertical-align: bottom;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  border: none;
+  border-radius: 3px;
+  &-primary {
+    background-color: $primary;
+    color: white;
+  }
+  &__label {
+    flex: 1 1 auto;
+  }
+}

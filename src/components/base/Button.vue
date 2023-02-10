@@ -1,7 +1,7 @@
 <template>
-  <button class="button" type="button" :aria-label="label">
+  <button class="btn" type="button" :aria-label="label">
     <slot>
-      <span class="label">{{ label }}</span>
+      <span class="btn__label">{{ label }}</span>
     </slot>
   </button>
 </template>
@@ -17,5 +17,3 @@ export default {
   },
 };
 </script>
-
-<style scoped></style>

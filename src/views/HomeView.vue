@@ -1,7 +1,6 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <p-button label="Secondary" class="secondary" />
+  <div class="container">
+    <p-button label="Giriş Yap" class="btn-primary w-100" />
   </div>
 </template>
 
