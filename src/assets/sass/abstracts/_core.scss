@@ -7,15 +7,19 @@ body {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Hind', sans-serif;
-  text-align: center;
 }
 
 .container {
   margin: 0 auto;
   width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-content: end;
 }
 
 .w-100 {
   width: 100%;
+}
+.w-25 {
+  width: 25%;
 }

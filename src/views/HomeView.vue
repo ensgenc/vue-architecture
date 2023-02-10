@@ -1,6 +1,10 @@
 <template>
   <div class="container">
-    <p-button label="Giriş Yap" class="btn-primary w-100" />
+    <p-card class="w-25">
+      <template #content>
+        <p-button label="Giriş Yap" class="btn-primary w-100" />
+      </template>
+    </p-card>
   </div>
 </template>
 
