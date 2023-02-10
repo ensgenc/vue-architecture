@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
+    <p-button label="Secondary" class="secondary" />
   </div>
 </template>
 
