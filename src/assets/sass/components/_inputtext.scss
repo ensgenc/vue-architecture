@@ -1,0 +1,43 @@
+.form-group {
+  position: relative;
+  padding: 20px 0;
+  width: 300px;
+  max-width: 100%;
+
+  & input {
+    border: none;
+    border-bottom: 1px solid #FDFEFD;
+    color: #FDFEFD;
+    display: block;
+    font-size: 16px;
+    padding: 10px 0;
+    width: 100%;
+    background-color: transparent;
+  }
+  & label {
+    color: #FDFEFD;
+    font-size: 16px;
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transform: translateY(30px);
+  }
+  & input:valid,
+  & input:focus {
+    border-bottom-color: $primary;
+    outline: none;
+  }
+  & input:valid + label,
+  & input:focus + label {
+    color: $primary;
+    font-size: 14px;
+    transform: translateY(0);
+  }
+  & label {
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+
