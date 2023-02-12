@@ -10,6 +10,9 @@ import InputText from "@/components/base/InputText.vue";
 import TabView from "@/components/base/TabView.vue";
 import TabPanel from "@/components/base/TabPanel.vue";
 
+import axios from "axios";
+import VueAxios from "vue-axios";
+
 // import translations
 import en from "./locales/en.json";
 import tr from "./locales/tr.json";
@@ -22,6 +25,8 @@ const i18n = createI18n({
 });
 
 const app = createApp(App);
+
+app.use(VueAxios, axios);
 
 app.use(i18n);
 
