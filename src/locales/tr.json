@@ -1,0 +1,9 @@
+{
+  "auth": {
+    "signIn": "Giriş Yap",
+    "signUp": "Üye Ol",
+    "name": "Adınız Soyadınız",
+    "eMail": "E-Posta Adresiniz",
+    "password": "Parolanız"
+  }
+}
