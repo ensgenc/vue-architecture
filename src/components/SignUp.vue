@@ -5,7 +5,7 @@
   </div>
   <div class="form-group">
     <p-input-text id="email" type="text" required />
-    <label>E-Mail Adresiniz</label>
+    <label>E-Posta Adresiniz</label>
   </div>
   <div class="form-group">
     <p-input-text id="password" type="password" required />

@@ -1,12 +1,12 @@
 <template>
-  <div class="container">
-    <p-card class="w-25">
+  <div class="container py-8">
+    <p-card>
       <template #content>
         <p-tab-view id="login-tab-view">
-          <p-tab-panel header="Giriş Yap">
+          <p-tab-panel header="Giriş Yap" headerClass="primary">
             <sign-in />
           </p-tab-panel>
-          <p-tab-panel header="Üye Ol">
+          <p-tab-panel header="Üye Ol" headerClass="danger">
             <sign-up />
           </p-tab-panel>
         </p-tab-view>

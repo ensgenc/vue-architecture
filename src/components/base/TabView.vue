@@ -114,6 +114,7 @@ export default {
     getTabHeaderClass(tab, i) {
       return [
         "tabview__header",
+        this.getTabProp(tab, "headerClass"),
         {
           "p-highlight": this.d_activeIndex === i,
         },

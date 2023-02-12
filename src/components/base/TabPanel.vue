@@ -10,6 +10,7 @@ export default {
       type: String,
       default: "Tab",
     },
+    headerClass: null,
   },
 };
 </script>
