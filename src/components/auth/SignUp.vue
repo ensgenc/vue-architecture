@@ -45,7 +45,7 @@ export default {
     ...mapActions(["signUp"]),
     createUser() {
       const { username, email, password } = this;
-      // validation should be used; example: https://vuelidate.js.org/
+      // TODO validation should be used; example: https://vuelidate.js.org/
       this.signUp({ username, email, password });
     },
   },

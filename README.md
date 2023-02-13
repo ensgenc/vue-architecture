@@ -1,4 +1,4 @@
-# paribu-test-case
+# vue-architecture
 
 ## Project setup
 ```
