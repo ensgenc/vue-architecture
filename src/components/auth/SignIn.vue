@@ -38,7 +38,7 @@ export default {
     ...mapActions(["signIn"]),
     login() {
       const { email, password } = this;
-      // validation should be used; example: https://vuelidate.js.org/
+      // TODO validation should be used; example: https://vuelidate.js.org/
       this.signIn({ email, password });
     },
   },

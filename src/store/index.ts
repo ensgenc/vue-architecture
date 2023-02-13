@@ -5,11 +5,13 @@ export default createStore({
   getters: {},
   mutations: {},
   actions: {
-    // eslint-disable-next-line no-empty-pattern
-    async signUp({}, payload) {
+    // TODO OAUTH service should be used
+    // TODO Axios set env baseUrl
+    async signUp({ commit }, payload) {
+      // TODO generic log service should be used
       console.log("signUp", payload);
       try {
-        const result = await axios.post(`/sign-up`, payload);
+        const result = await axios.post(`https://mockapi.io/sign-up`, payload);
         if (result) {
           console.log("signUp success");
         }
@@ -17,8 +19,7 @@ export default createStore({
         console.log("signUp error", error);
       }
     },
-    // eslint-disable-next-line no-empty-pattern
-    async signIn({}, payload) {
+    async signIn({ commit }, payload) {
       console.log("signIn", payload);
       try {
         const result = await axios.post(`https://mockapi.io/sign-in`, payload);
